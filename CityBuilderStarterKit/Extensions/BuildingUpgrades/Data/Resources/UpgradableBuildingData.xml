@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ArrayOfBuildingTypeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+  <BuildingTypeData>
+    <id>SAWMILL</id>
+    <name>Sawmill</name>
+    <description>Used to gather resources from forests. Required for most other buildings.</description>
+    <spriteName>Sawmill</spriteName>
+    <cost>100</cost>
+    <buildTime>15</buildTime>
+    <allowIds>
+	  <string>BARRACKS</string>
+    </allowIds>
+    <requireIds>
+    </requireIds>
+    <shape>
+	  <GridPosition x="0" y="0"/>
+      <GridPosition x="1" y="0"/>
+      <GridPosition x="2" y="0"/>
+      <GridPosition x="0" y="1"/>
+      <GridPosition x="1" y="1"/>
+      <GridPosition x="2" y="1"/>
+	  <GridPosition x="0" y="2"/>
+      <GridPosition x="1" y="2"/>
+      <GridPosition x="2" y="2"/>
+    </shape>
+    <activities>
+      <string>GATHER</string>
+      <string>UPGRADE</string>
+    </activities>    
+	<generationAmount>1</generationAmount>
+	<generationTime>2</generationTime>
+	<generationType>RESOURCE</generationType>
+	<generationStorage>50</generationStorage>
+  </BuildingTypeData>
+	
+  <BuildingTypeData>
+    <id>BARRACKS</id>
+    <name>Barracks</name>
+    <description>This is where most military units are recruited and trained.</description>
+    <spriteName>Barracks</spriteName>
+    <cost>200</cost>
+    <buildTime>30</buildTime>
+    <allowIds>
+      <string>SWORDSMAN</string>
+	  <string>LARGE_BARRACKS</string>
+    </allowIds>
+    <requireIds>
+      <string>SAWMILL</string>
+    </requireIds>
+    <shape>
+    <GridPosition x="1" y="0"/>
+    <GridPosition x="2" y="0"/>
+    <GridPosition x="0" y="1"/>
+    <GridPosition x="1" y="1"/>
+    <GridPosition x="2" y="1"/>
+	<GridPosition x="0" y="2"/>
+    <GridPosition x="1" y="2"/>
+    <GridPosition x="2" y="2"/>
+    </shape>
+	<occupantStorage>2</occupantStorage>		
+  </BuildingTypeData>
+	
+  <BuildingTypeData>
+    <id>FIGHTERS_GUILD</id>
+    <name>Fighters Guild</name>
+    <description>Provides a place for the advanced study of war and battle techniques.</description>
+    <spriteName>FightersGuild</spriteName>
+    <cost>500</cost>
+    <buildTime>120</buildTime>
+    <allowIds>
+      <string>LARGE_BARRACKS</string>
+	  <string>PIKEMAN</string>
+    </allowIds>
+    <requireIds>
+      <string>BARRACKS</string>
+    </requireIds>
+    <shape>
+    <GridPosition x="1" y="0"/>
+    <GridPosition x="2" y="0"/>
+    <GridPosition x="0" y="1"/>
+    <GridPosition x="1" y="1"/>
+    <GridPosition x="2" y="1"/>
+	<GridPosition x="0" y="2"/>
+    <GridPosition x="1" y="2"/>
+    <GridPosition x="2" y="2"/>
+    </shape>		
+  </BuildingTypeData>
+	
+  <BuildingTypeData>
+    <id>LARGE_BARRACKS</id>
+    <name>Large Barracks</name>
+    <description>Holds more troops than a standard barracks.</description>
+    <spriteName>LargeBarracks</spriteName>
+    <cost>1200</cost>
+    <buildTime>240</buildTime>
+    <allowIds>
+    </allowIds>
+    <requireIds>
+      <string>BARRACKS</string>
+      <string>FIGHTERS_GUILD</string>
+    </requireIds>
+	<shape>
+	  <GridPosition x="0" y="0"/>
+      <GridPosition x="1" y="0"/>
+      <GridPosition x="2" y="0"/>
+	  <GridPosition x="3" y="0"/>
+	  <GridPosition x="-1" y="0"/>
+      <GridPosition x="0" y="1"/>
+      <GridPosition x="1" y="1"/>
+      <GridPosition x="2" y="1"/>
+	  <GridPosition x="3" y="1"/>
+	  <GridPosition x="-1" y="1"/>			
+	  <GridPosition x="0" y="2"/>
+      <GridPosition x="1" y="2"/>
+      <GridPosition x="2" y="2"/>
+	  <GridPosition x="3" y="2"/>			
+	  <GridPosition x="-1" y="2"/>						
+	  <GridPosition x="0" y="-1"/>
+      <GridPosition x="1" y="-1"/>
+      <GridPosition x="2" y="-1"/>
+	  <GridPosition x="3" y="-1"/>			
+	  <GridPosition x="-1" y="-1"/>			
+    </shape>
+	<occupantStorage>4</occupantStorage>
+  </BuildingTypeData>
+
+ <BuildingTypeData>
+    <id>TEMPLE</id>
+    <name>Temple</name>
+    <description>A holy temple that can recruit priests.</description>
+    <spriteName>Temple</spriteName>
+    <cost>200</cost>
+    <buildTime>30</buildTime>
+    <allowIds>
+      <string>PRIEST</string>
+    </allowIds>
+    <requireIds>
+      <string>SAWMILL</string>
+    </requireIds>
+    <shape>
+    <GridPosition x="1" y="0"/>
+    <GridPosition x="2" y="0"/>
+    <GridPosition x="0" y="1"/>
+    <GridPosition x="1" y="1"/>
+    <GridPosition x="2" y="1"/>
+	<GridPosition x="0" y="2"/>
+    <GridPosition x="1" y="2"/>
+    <GridPosition x="2" y="2"/>
+    </shape>
+	<occupantStorage>2</occupantStorage>		
+  </BuildingTypeData>
+	
+</ArrayOfBuildingTypeData>

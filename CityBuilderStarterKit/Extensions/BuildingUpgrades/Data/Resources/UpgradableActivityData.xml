@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ArrayOfActivityData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+  <ActivityData>
+    <type>GATHER</type>
+    <durationInSeconds>20</durationInSeconds>
+    <description>Gather resources.</description>
+    <reward>RESOURCE</reward>
+    <rewardAmount>200</rewardAmount>
+  </ActivityData>
+	
+  <ActivityData>
+    <type>UPGRADE</type>
+    <durationInSeconds>20</durationInSeconds>
+    <description>Upgrade the buildings level.</description>
+    <reward>CUSTOM</reward>
+    <rewardAmount>1</rewardAmount>
+    <rewardId>UPGRADE</rewardId>
+  </ActivityData>
+  
+</ArrayOfActivityData>

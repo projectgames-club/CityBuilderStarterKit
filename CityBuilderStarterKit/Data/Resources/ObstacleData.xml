@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ArrayOfBuildingTypeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+  <BuildingTypeData>
+    <id>ROCK</id>
+    <name>Rock</name>
+    <spriteName>SmallRock</spriteName>
+    <cost>20</cost>
+	<isObstacle>true</isObstacle>
+    <buildTime>60</buildTime>
+    <shape>
+	  <GridPosition x="0" y="0"/>
+      <GridPosition x="-1" y="0"/>
+      <GridPosition x="0" y="-1"/>
+      <GridPosition x="-1" y="-1"/>
+    </shape>
+	<generationAmount>10</generationAmount>
+	<generationType>RESOURCE</generationType>
+  </BuildingTypeData>
+	
+  <BuildingTypeData>
+    <id>TREE</id>
+    <name>Tree</name>
+    <spriteName>Tree</spriteName>
+    <cost>10</cost>
+	<isObstacle>true</isObstacle>
+    <buildTime>15</buildTime>
+    <shape>
+	  <GridPosition x="0" y="0"/>
+      <GridPosition x="-1" y="0"/>
+      <GridPosition x="0" y="-1"/>
+      <GridPosition x="-1" y="-1"/>
+    </shape>
+	<generationAmount>5</generationAmount>
+	<generationType>RESOURCE</generationType>
+  </BuildingTypeData>
+	
+</ArrayOfBuildingTypeData>

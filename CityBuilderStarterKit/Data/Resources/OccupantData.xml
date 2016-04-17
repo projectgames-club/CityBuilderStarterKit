@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ArrayOfOccupantTypeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+  <OccupantTypeData xsi:type="AttackerOccupantTypeData">
+    <id>SWORDSMAN</id>
+    <name>Swordsman</name>
+    <description>The standard military unit. A soldier armed with a sword.</description>
+    <spriteName>Swordman</spriteName>
+    <cost>100</cost>
+    <buildTime>15</buildTime>
+	<recruitFromIds>
+		<string>BARRACKS</string>
+		<string>LARGE_BARRACKS</string>
+	</recruitFromIds>
+    <allowIds></allowIds>
+    <requireIds></requireIds>
+	<housingIds>
+		<string>BARRACKS</string>
+	</housingIds>    
+	<generationBoost>1</generationBoost>
+	<occupantSize>1</occupantSize>
+	<attack>5</attack>
+	<defense>5</defense>
+  </OccupantTypeData>
+	
+  <OccupantTypeData xsi:type="AttackerOccupantTypeData">
+    <id>PIKEMAN</id>
+    <name>Pikeman</name>
+    <description>A soldier armed with a pike and well suited to defensive tasks.</description>
+    <spriteName>Pikeman</spriteName>
+    <cost>200</cost>
+    <buildTime>30</buildTime>
+	<recruitFromIds>
+        <string>BARRACKS</string>
+	    <string>LARGE_BARRACKS</string>			
+	</recruitFromIds>
+    <allowIds></allowIds>
+    <requireIds>
+		<string>FIGHTERS_GUILD</string>
+	</requireIds>
+	<housingIds>
+		<string>BARRACKS</string>
+	    <string>LARGE_BARRACKS</string>				
+	</housingIds>    
+	<generationBoost>1</generationBoost>
+	<occupantSize>1</occupantSize>
+	<attack>10</attack>
+	<defense>15</defense>	
+  </OccupantTypeData>
+
+  <OccupantTypeData>
+    <id>PRIEST</id>
+    <name>Priest</name>
+    <description>A holy warrior.</description>
+    <spriteName>Priest</spriteName>
+    <cost>200</cost>
+    <buildTime>30</buildTime>
+	<recruitFromIds>
+        <string>TEMPLE</string>		
+	</recruitFromIds>
+    <allowIds></allowIds>
+    <requireIds>
+		<string>TEMPLE</string>
+	</requireIds>
+	<housingIds>
+		<string>TEMPLE</string>			
+	</housingIds>    
+	<generationBoost>1</generationBoost>
+	<occupantSize>1</occupantSize>
+  </OccupantTypeData>
+	
+</ArrayOfOccupantTypeData>

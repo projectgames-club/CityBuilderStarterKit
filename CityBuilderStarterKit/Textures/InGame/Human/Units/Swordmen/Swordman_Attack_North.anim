@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Swordman_Attack_North
+  serializedVersion: 4
+  m_AnimationType: 2
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.05999994, y: .649999976, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: 
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 28f9391c4b5892a45bfbcc282db61066, type: 3}
+    - time: .0833333358
+      value: {fileID: 21300000, guid: 21c8581c81430e748a3c19f09c5bc75b, type: 3}
+    - time: .166666672
+      value: {fileID: 21300000, guid: 0311bb68a1238ab46838f14301c52372, type: 3}
+    - time: .25
+      value: {fileID: 21300000, guid: fb20939f718f79747b0c05681b67ecc8, type: 3}
+    - time: .333333343
+      value: {fileID: 21300000, guid: 078b6f98bdf46734494fbd8bfedc54a5, type: 3}
+    - time: .416666657
+      value: {fileID: 21300000, guid: 62c5fe5684703214dbeec8567027c200, type: 3}
+    - time: .5
+      value: {fileID: 21300000, guid: 7086a20ab77d2614e9a21bded44d6b3c, type: 3}
+    - time: .583333313
+      value: {fileID: 21300000, guid: 902fd7481fff0cd4ab8fc2ee43e91fe3, type: 3}
+    - time: .666666687
+      value: {fileID: 21300000, guid: 3c37be14559c44344b1328985b82bd91, type: 3}
+    - time: .75
+      value: {fileID: 21300000, guid: a10e1f8ca168b374a9f1d8acb6879c51, type: 3}
+    - time: .833333313
+      value: {fileID: 21300000, guid: 56773ac3e785dcf49b82bf621cea13d1, type: 3}
+    - time: .916666687
+      value: {fileID: 21300000, guid: e4d19116e403ba448924ddbd381cb4e1, type: 3}
+    attribute: m_Sprite
+    path: 
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 12
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - path: 0
+      attribute: 0
+      script: {fileID: 0}
+      classID: 212
+      customType: 23
+      isPPtrCurve: 1
+    - path: 0
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: 28f9391c4b5892a45bfbcc282db61066, type: 3}
+    - {fileID: 21300000, guid: 21c8581c81430e748a3c19f09c5bc75b, type: 3}
+    - {fileID: 21300000, guid: 0311bb68a1238ab46838f14301c52372, type: 3}
+    - {fileID: 21300000, guid: fb20939f718f79747b0c05681b67ecc8, type: 3}
+    - {fileID: 21300000, guid: 078b6f98bdf46734494fbd8bfedc54a5, type: 3}
+    - {fileID: 21300000, guid: 62c5fe5684703214dbeec8567027c200, type: 3}
+    - {fileID: 21300000, guid: 7086a20ab77d2614e9a21bded44d6b3c, type: 3}
+    - {fileID: 21300000, guid: 902fd7481fff0cd4ab8fc2ee43e91fe3, type: 3}
+    - {fileID: 21300000, guid: 3c37be14559c44344b1328985b82bd91, type: 3}
+    - {fileID: 21300000, guid: a10e1f8ca168b374a9f1d8acb6879c51, type: 3}
+    - {fileID: 21300000, guid: 56773ac3e785dcf49b82bf621cea13d1, type: 3}
+    - {fileID: 21300000, guid: e4d19116e403ba448924ddbd381cb4e1, type: 3}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.05999994
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .649999976
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []

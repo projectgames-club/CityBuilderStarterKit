@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ArrayOfActivityData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+  <ActivityData xsi:type="AttackActivityData">
+    <type>ATTACK_KORVETH</type>
+    <durationInSeconds>15</durationInSeconds>
+    <description>Attack the city of Korveth.</description>
+    <reward>CUSTOM</reward>
+    <rewardAmount>1</rewardAmount>
+    <strength>10</strength>
+  </ActivityData>
+	
+  <ActivityData xsi:type="AttackActivityData">
+    <type>ATTACK_HOLT</type>
+    <durationInSeconds>30</durationInSeconds>
+    <description>Attack the city of Holt.</description>
+    <reward>CUSTOM</reward>
+    <rewardAmount>2</rewardAmount>
+    <strength>20</strength>
+  </ActivityData>
+  
+  <ActivityData xsi:type="AttackActivityData">
+    <type>ATTACK_VILLAIS</type>
+    <durationInSeconds>60</durationInSeconds>
+    <description>Attack the city of Villais.</description>
+    <reward>CUSTOM</reward>
+    <rewardAmount>5</rewardAmount>
+    <strength>50</strength>
+  </ActivityData>
+  
+</ArrayOfActivityData>

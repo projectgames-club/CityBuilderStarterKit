@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ArrayOfBuildingTypeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	<BuildingTypeData>
+    <id>PATH</id>
+    <name>Path</name>
+    <description>A simple rocky path.</description>
+    <spriteName>Path</spriteName>
+    <isPath>true</isPath>
+    <level>1</level>
+    <cost>5</cost>
+    <buildTime>0</buildTime>
+    <shape>
+	  <GridPosition x="0" y="0"/>
+    </shape>
+  </BuildingTypeData>
+
+</ArrayOfBuildingTypeData>

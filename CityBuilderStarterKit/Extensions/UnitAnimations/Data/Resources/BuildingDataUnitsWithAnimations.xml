@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ArrayOfBuildingTypeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+  <BuildingTypeData xsi:type="BuildingDataWithUnitAnimations">
+    <id>SAWMILL</id>
+    <name>Sawmill</name>
+    <description>Used to gather resources from forests. Required for most other buildings.</description>
+    <spriteName>Sawmill</spriteName>
+    <level>1</level>
+    <cost>100</cost>
+    <buildTime>15</buildTime>
+    <allowIds>
+	  <string>BARRACKS</string>
+    </allowIds>
+    <requireIds>
+    </requireIds>
+    <shape>
+      <GridPosition x="-2" y="-2"/>
+      <GridPosition x="-1" y="-2"/>
+      <GridPosition x="-2" y="-1"/>
+      <GridPosition x="0" y="-2"/>
+      <GridPosition x="-2" y="0"/>
+      <GridPosition x="-1" y="-1"/>
+      <GridPosition x="0" y="-1"/>
+      <GridPosition x="-1" y="0"/>
+      <GridPosition x="0" y="0"/>
+    </shape>
+    <activities>
+      <string>GATHER</string>
+    </activities>    
+	<generationAmount>1</generationAmount>
+	<generationTime>2</generationTime>
+	<generationType>RESOURCE</generationType>
+	<generationStorage>50</generationStorage>
+  </BuildingTypeData>
+	
+  <BuildingTypeData xsi:type="BuildingDataWithUnitAnimations">
+    <id>BARRACKS</id>
+    <name>Barracks</name>
+    <description>This is where most military units are recruited and trained.</description>
+    <spriteName>Barracks</spriteName>
+    <level>1</level>
+    <cost>200</cost>
+    <buildTime>30</buildTime>
+    <allowIds>
+      <string>SWORDSMAN</string>
+	  <string>LARGE_BARRACKS</string>
+    </allowIds>
+    <requireIds>
+      <string>SAWMILL</string>
+    </requireIds>
+    <shape>
+      <GridPosition x="-2" y="-2"/>
+      <GridPosition x="-1" y="-2"/>
+      <GridPosition x="-2" y="-1"/>
+      <GridPosition x="0" y="-2"/>
+      <GridPosition x="-2" y="0"/>
+      <GridPosition x="-1" y="-1"/>
+      <GridPosition x="0" y="-1"/>
+      <GridPosition x="-1" y="0"/>
+      <GridPosition x="0" y="0"/>
+    </shape>
+	<occupantStorage>2</occupantStorage>	
+	<animationPositions>
+		<Vector2><x>-24</x><y>-54</y></Vector2>
+	</animationPositions>
+	<staticPositions>
+		<Vector2><x>37</x><y>-31</y></Vector2>
+	</staticPositions>
+  </BuildingTypeData>
+	
+  <BuildingTypeData xsi:type="BuildingDataWithUnitAnimations">
+    <id>FIGHTERS_GUILD</id>
+    <name>Fighters Guild</name>
+    <description>Provides a place for the advanced study of war and battle techniques.</description>
+    <spriteName>FightersGuild</spriteName>
+    <level>2</level>
+    <cost>500</cost>
+    <buildTime>120</buildTime>
+    <allowIds>
+      <string>LARGE_BARRACKS</string>
+	  <string>PIKEMAN</string>
+    </allowIds>
+    <requireIds>
+      <string>BARRACKS</string>
+    </requireIds>
+    <shape>
+      <GridPosition x="-2" y="-2"/>
+      <GridPosition x="-1" y="-2"/>
+      <GridPosition x="-2" y="-1"/>
+      <GridPosition x="0" y="-2"/>
+      <GridPosition x="-2" y="0"/>
+      <GridPosition x="-1" y="-1"/>
+      <GridPosition x="0" y="-1"/>
+      <GridPosition x="-1" y="0"/>
+      <GridPosition x="0" y="0"/>
+    </shape>		
+  </BuildingTypeData>
+	
+  <BuildingTypeData xsi:type="BuildingDataWithUnitAnimations">
+    <id>LARGE_BARRACKS</id>
+    <name>Large Barracks</name>
+    <description>Holds more troops than a standard barracks.</description>
+    <spriteName>LargeBarracks</spriteName>
+    <level>2</level>
+    <cost>1200</cost>
+    <buildTime>240</buildTime>
+    <allowIds>
+    </allowIds>
+    <requireIds>
+      <string>BARRACKS</string>
+      <string>FIGHTERS_GUILD</string>
+    </requireIds>
+	<shape>
+    <GridPosition x="-3" y="-3"/>
+    <GridPosition x="-2" y="-3"/>
+    <GridPosition x="-3" y="-2"/>
+    <GridPosition x="-1" y="-3"/>
+    <GridPosition x="-3" y="-1"/>
+    <GridPosition x="0" y="-3"/>
+    <GridPosition x="-3" y="0"/>
+    <GridPosition x="-2" y="-2"/>
+    <GridPosition x="-1" y="-2"/>
+    <GridPosition x="-2" y="-1"/>
+    <GridPosition x="0" y="-2"/>
+    <GridPosition x="-2" y="0"/>
+    <GridPosition x="-1" y="-1"/>
+    <GridPosition x="0" y="-1"/>
+    <GridPosition x="-1" y="0"/>
+    <GridPosition x="0" y="0"/>
+  </shape>
+	<occupantStorage>3</occupantStorage>
+	<animationPositions>
+		<Vector2><x>-23</x><y>-75</y></Vector2>
+		<Vector2><x>-33</x><y>-70</y></Vector2>
+	</animationPositions>
+	<staticPositions>
+		<Vector2><x>-74</x><y>-71</y></Vector2>
+		<Vector2><x>50</x><y>-29</y></Vector2>
+	</staticPositions>
+  </BuildingTypeData>
+	
+</ArrayOfBuildingTypeData>

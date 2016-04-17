@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ArrayOfBuildingTypeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	  
+  <BuildingTypeData>
+    <id>FACTORY</id>
+    <name>Factory</name>
+    <description>A grimy old factory.</description>
+    <spriteName>factory</spriteName>
+    <cost>100</cost>
+    <buildTime>15</buildTime>
+    <allowIds>
+    </allowIds>
+    <requireIds>
+    </requireIds>
+    <shape>
+      <GridPosition x="1" y="-1"/>
+      <GridPosition x="2" y="-1"/>
+      <GridPosition x="1" y="-2"/>
+      <GridPosition x="2" y="-2"/>
+	  
+    </shape>
+    <activities>
+    </activities>    
+	<generationAmount>1</generationAmount>
+	<generationTime>2</generationTime>
+	<generationType>RESOURCE</generationType>
+	<generationStorage>50</generationStorage>
+  </BuildingTypeData>
+  
+  <BuildingTypeData>
+    <id>HANGAR</id>
+    <name>Hangar</name>
+    <description>An old aircraft hangar.</description>
+    <spriteName>hangar</spriteName>
+    <cost>200</cost>
+    <buildTime>30</buildTime>
+    <allowIds>
+    </allowIds>
+    <requireIds>
+    </requireIds>
+    <shape>
+	  <GridPosition x="1" y="-1"/>
+      <GridPosition x="2" y="-1"/>
+      <GridPosition x="1" y="-2"/>
+      <GridPosition x="2" y="-2"/>
+    </shape>
+    <activities>
+    </activities>    
+	<generationAmount>1</generationAmount>
+	<generationTime>2</generationTime>
+	<generationType>RESOURCE</generationType>
+	<generationStorage>50</generationStorage>
+  </BuildingTypeData>
+
+	
+</ArrayOfBuildingTypeData>

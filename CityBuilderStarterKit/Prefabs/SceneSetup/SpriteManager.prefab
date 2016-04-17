@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &190036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 490036}
+  - 114: {fileID: 11490036}
+  m_Layer: 0
+  m_Name: SpriteManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &490036
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190036}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11490036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7695024e7537af24ba7d94f2c9fad91c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonSprites:
+  - {fileID: 21300000, guid: 3e237b0b135a45945be95cb76c4bbbd1, type: 3}
+  - {fileID: 21300000, guid: 6a19ae8e761f61947864ec42bb377dc8, type: 3}
+  - {fileID: 21300000, guid: c9820c22ef79771409339f5182a27a70, type: 3}
+  - {fileID: 21300000, guid: bea10db6936286a4cbf5132a4b1419c2, type: 3}
+  - {fileID: 21300000, guid: d6bd077b592528947b286bf5001116bf, type: 3}
+  - {fileID: 21300000, guid: 6c3f0b504aa5f8e40b50ccc79dd1d0b4, type: 3}
+  - {fileID: 21300000, guid: 64b84d50af605f749bf0ca20d6baa895, type: 3}
+  - {fileID: 21300000, guid: 361d596fbae206640892072ed408fa79, type: 3}
+  - {fileID: 21300000, guid: 3bb93952559537242bb9e7cc78d95a66, type: 3}
+  buildingSprites:
+  - {fileID: 21300000, guid: be226aac0f5621c46bf78a4595f45add, type: 3}
+  - {fileID: 21300000, guid: 731654b7cdb66c64584e46f862f07968, type: 3}
+  - {fileID: 21300000, guid: 1d9808d629302d045a6733de748a1c78, type: 3}
+  - {fileID: 21300000, guid: 12628396e080fd94d9346386c72c82f5, type: 3}
+  - {fileID: 21300000, guid: fdf2686c4be5d47449c1e9d166c19070, type: 3}
+  - {fileID: 21300000, guid: 225d9f34e4f73bb4d8412b72804ea36c, type: 3}
+  - {fileID: 21300000, guid: e596fba5ae2eefb4882c8da48435386a, type: 3}
+  - {fileID: 21300000, guid: ed66308c23e356b4280577254131560a, type: 3}
+  - {fileID: 21300000, guid: 75026ec019485864abd84fb8f0665a56, type: 3}
+  - {fileID: 21300000, guid: 75026ec019485864abd84fb8f0665a56, type: 3}
+  - {fileID: 21300000, guid: 6c840792715adc946812a991b25677fc, type: 3}
+  - {fileID: 21300000, guid: a21880b2f1d8e884994bc5c434c68211, type: 3}
+  - {fileID: 21300000, guid: 14b54c63afb2fe44db3685093d7562c5, type: 3}
+  - {fileID: 21300000, guid: 2c6a70839e2aa7a4f871cf26070606ee, type: 3}
+  - {fileID: 21300000, guid: 8f5b3844b88481f469704f080d019723, type: 3}
+  - {fileID: 21300000, guid: 06b8d454cb5a2d54a966ab881db42ac0, type: 3}
+  - {fileID: 21300000, guid: 05939f46be9f1a24f88a2d97b5205788, type: 3}
+  - {fileID: 21300000, guid: 57607cf7413c7884095cd73800fa7ee9, type: 3}
+  - {fileID: 21300000, guid: d0046aca697dce447bb44f496507ee70, type: 3}
+  - {fileID: 21300000, guid: 24a4d35c53c3f40459ec02572abc038e, type: 3}
+  - {fileID: 21300000, guid: 5be8f9dcaebb0d243a063b27f4ce7bfa, type: 3}
+  - {fileID: 21300000, guid: 0913ff2da0dd90f429c98372f4c4f0f6, type: 3}
+  - {fileID: 21300000, guid: 73c46d5daf4f9c241ae7948d259fd6a3, type: 3}
+  - {fileID: 21300000, guid: f9595cdd99219d946b2affb48f0c886e, type: 3}
+  unitSprites:
+  - {fileID: 21300000, guid: 5cf0aba6bee533a47ab3a95d0a8bb1d7, type: 3}
+  - {fileID: 21300000, guid: 52c11c26fc4aeda47a56443a947df3be, type: 3}
+  - {fileID: 21300000, guid: fd4a9d3e664cac745b716b8f326b1026, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 190036}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
